@@ -36,9 +36,10 @@ class Cadastro {
 
     }
 
-    escreverUsernameJaCadastrado() {
+    
+    cadastraPasswordEstatico() {
 
-        cy.get(elements.inputUserName).type('@naflor01')
+        cy.get(elements.inputPassword).type('An@flor')
 
 
     }
@@ -61,6 +62,7 @@ class Cadastro {
         this.finalizaCadastro()
         
     }
+       
 
     verificaUsernameJaCadastrado(usernameData) {
         this.escreverFirstName(usernameData.firstName)

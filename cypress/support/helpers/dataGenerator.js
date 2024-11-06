@@ -21,5 +21,9 @@ export const generateUserData = () => {
                 password: faker.internet.password(4)
         
             };
+
+    
             
         };
+
+ 

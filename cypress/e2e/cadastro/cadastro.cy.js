@@ -22,7 +22,7 @@ describe('Testes funcionais de cadastro', () => {
             login_page.validaBtnSignInVisible()
         }) 
 
-    it.only('Tentativa de cadastro com um Username previamente cadastrado', () => {
+    it('Tentativa de cadastro com um Username previamente cadastrado', () => {
          
             const usernameData = accountData ();
             login_page.clicaBtnSiginUp()
